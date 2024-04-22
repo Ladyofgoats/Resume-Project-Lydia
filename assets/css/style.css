@@ -7,7 +7,6 @@
 
 .bg-color-three-reasons {
     background-color: #fff;
-    font-weight: 300;
 }
 
 .bg-color-personal-info {
@@ -251,5 +250,23 @@ transition: all 0.35s ease-in-out;
 
 .personal-info-item .key p, 
 .personal-info-item .value p {
+    margin: 0;
+
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+font-weight: 700;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
     
 }
